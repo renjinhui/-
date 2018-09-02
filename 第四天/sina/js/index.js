@@ -103,7 +103,7 @@ p.then(function (data) {
 
 var listPro = new Promise(function (resolve, reject) {
    $.ajax({
-       type:'post',
+       type:'get',
        url:'./data/list.json',
        data:{t:1},
        success:function (data) {
